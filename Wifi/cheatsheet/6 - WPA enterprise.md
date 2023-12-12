@@ -1,8 +1,9 @@
 ### WPA enterprise
 Each user uses his own user and password (if client certificates are not used). Each user's traffic is encrypted with a different key. Connection in windows:
-![[Pasted image 20220705161948.png]]
+<br><img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/fd8c8e1d-6df0-41fa-8f8f-8fae146fbe17"><br>
+
 and in mac
-![[Pasted image 20220705162006.png]]
+<br><img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/48fc218f-2405-42c6-bb37-d2e302c41ca4"><br>
 
 Looks like a captive portal but it's safer. In WPA enterprise we attack the clients, not the AP nor the RADIUS 
 
