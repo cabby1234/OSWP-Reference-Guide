@@ -178,16 +178,16 @@ besside-ng wlan0 -c 6 -b <BSSID>
 ```
 
 ### wordlists
-ftp://ftp.openwall.com/pub/wordlists/
-http://www.openwall.com/mirrors/
-https://github.com/danielmiessler/SecLists
-http://www.outpost9.com/files/WordLists.html
-http://www.vulnerabilityassessment.co.uk/passwords.htm
-http://packetstormsecurity.org/Crackers/wordlists/
-http://www.ai.uga.edu/ftplib/natural-language/moby/
-http://www.cotse.com/tools/wordlists1.htm
-http://www.cotse.com/tools/wordlists2.htm
-http://wordlist.sourceforge.net/
+ftp://ftp.openwall.com/pub/wordlists/<br>
+http://www.openwall.com/mirrors/<br>
+https://github.com/danielmiessler/SecLists<br>
+http://www.outpost9.com/files/WordLists.html<br>
+http://www.vulnerabilityassessment.co.uk/passwords.htm<br>
+http://packetstormsecurity.org/Crackers/wordlists/<br>
+http://www.ai.uga.edu/ftplib/natural-language/moby/<br>
+http://www.cotse.com/tools/wordlists1.htm<br>
+http://www.cotse.com/tools/wordlists2.htm<br>
+http://wordlist.sourceforge.net/<br>
 
 
 
