@@ -76,7 +76,7 @@ sudo aireplay-ng -2 -r <forged packet name> wlan0mon
 ```
 
 
-#### fragmentation attack
+#### Fragmentation attack
 Similar to chop chop but we need to obtain 1500 bytes from the pseudo random generator algorithm (PRGA). With this attack another packet is forged, but it's faster than chop chop, although we need to be physically close to the AP so that it works better.
 
 ```bash
