@@ -373,12 +373,15 @@ iwconfig wlan0 essid <essid>
 Hidden networks don't advertise their name (ESSID) but they advertise their presence (BSSID). This is enough for us to not be able to connect or try to crack their pass, or try to launch attacks against it.
 In linksys routers the ESSID can be disabled like this:
 
-![[Pasted image 20220701204113.png]]
+<img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/afcb456a-6c8c-4b07-be67-512b1f0d458a">
+<br>
 Airodump only shows the name length, but not its value
-![[Pasted image 20220701204047.png]]
+<img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/62d56d07-389a-4adc-9465-046ebd555126">
+<br>
 
 In windows we see "hidden network" and it asks for the name when we try to connect
-![[Pasted image 20220701204326.png]]
+<img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/211cddd3-d916-4357-979c-9f47e1031e4f">
+<br>
 
 If a network has hidden ESSID the first step is to ALWAYS try to find it. If there are clients connected we can deauth one of them and we will capture the name when he reconnects.
 If there are no connected clients try a dictionary attack, trying to connect to a network using different names from a dictionary
