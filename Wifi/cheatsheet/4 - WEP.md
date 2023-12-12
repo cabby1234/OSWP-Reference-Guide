@@ -1,6 +1,6 @@
 WEP
 
-![[Pasted image 20220707110514.png]]
+<br><img align="center" alt="Coding" width="400" height="150" src="https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/1647bf83-445e-464e-81bb-2e8e91c0972e">
 
 CRC-32 is a digest, just like MD5
 
@@ -29,7 +29,8 @@ It is necessary to use a target client MAC with -h, the MAC of a client that is 
 ``sudo aireplay-ng --arpreplay -b <AP bssid> -h <target client MAC> wlan0mon``
 
 <font color=red> The -a used in other commands is replaced by -b for the BSSID and the --arpreplay doesn't have any number afterward</font>
-This captures packets until one of them is an ARP request, and then starts to generate traffic. Watch with airodump who many useful packets we have in ``#Data``.
+This captures packets until one of them is an ARP request, and then star![Pasted image 20220707110514](https://github.com/cabby1234/OSWP-Reference-Guide/assets/131496256/e5b97f10-a13a-483a-a358-62ad0aa3499c)
+ts to generate traffic. Watch with airodump who many useful packets we have in ``#Data``.
 
 <font color=red>to capture useful ARP packets we either need to be associated with the AP (fakeauth) or use with aireplay-ng arpreplay the MAC of an associated client</font>
 
@@ -149,5 +150,3 @@ airodump-ng -c 1 mon0 --write Hirte
 
 ### WEP cloacking 
 WEP protection in which fake packets are sent into the air to make it difficult to crack WEP (they try to difficult the statistical attacks)
-
-
